@@ -2,6 +2,7 @@
 
 import { useGetAllJobs } from '@/hooks/use-get-all-jobs';
 import JobCard from './job-card';
+import JobCardSkeleton from './job-card-skeleton';
 
 export default function ShowAllJobs() {
   const { data: jobs, isLoading, isError } = useGetAllJobs();
@@ -10,7 +11,7 @@ export default function ShowAllJobs() {
     <main className="p-6 space-y-4">
       <h1 className="text-2xl font-bold">🧰 Available Jobs</h1>
 
-      {isLoading && <p>Loading jobs...</p>}
+      {isLoading && <JobCardSkeleton />}
 
       {isError && <p className="text-red-500">Failed to load jobs.</p>}
 

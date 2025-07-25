@@ -23,7 +23,8 @@ export default function NotFound() {
                 Job Not Found
               </h3>
               <p className="text-sm text-muted-foreground mt-1">
-                The job you're looking for doesn't exist or has been removed.
+                The job you&apos;re looking for doesn&apos;t exist or has been
+                removed.
               </p>
             </div>
             <Button asChild variant="outline">
