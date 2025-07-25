@@ -19,7 +19,7 @@ export default function BackToHome() {
               Application Submitted!
             </h3>
             <p className="text-sm mb-4 text-muted-foreground mt-1">
-              Thank you for your interest. We'll be in touch soon.
+              Thank you for your interest. We&apos;ll be in touch soon.
             </p>
             <Button onClick={() => router.push('/')}>Back to Home</Button>
           </div>
