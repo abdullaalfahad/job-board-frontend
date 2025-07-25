@@ -1,4 +1,4 @@
-import { Job } from '@/types/jobs';
+import { Job } from '@/types/job-type';
 import { Card, CardContent } from '../ui/card';
 import Link from 'next/link';
 
